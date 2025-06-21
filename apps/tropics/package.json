@@ -1,0 +1,26 @@
+{
+    "name": "@onlook/tropics",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "format": "prettier --write .",
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "@types/react": "^19.0.0",
+        "@types/react-dom": "^19.0.0",
+        "@vitejs/plugin-react": "^4.2.1",
+        "vite": "^5.0.0",
+        "prettier": "^3.5.3",
+        "eslint": "^9.23.0",
+        "typescript": "^5.5.4"
+    }
+}
